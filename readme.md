@@ -44,8 +44,9 @@
 * Linkedin : https://www.linkedin.com/in/francisco-herrero-48a7b5167
 * Actividad LaboraL : Estudiante  
 * Carrera en curso: BootCamp de DevOps Engineer
-* 
-![Screenshot_8](https://user-images.githubusercontent.com/108201954/175798276-9e245d3a-53bd-4973-bb61-d562d7a2a6a6.png)
+
+![Screenshot_3](https://user-images.githubusercontent.com/108201954/175798596-0652fefb-3597-4816-a58e-4888a523aa74.png)
+
 
 
 #
@@ -90,7 +91,7 @@
 
 ## Profesores:
 
-Gino Rojo  ![Screenshot_11](https://user-images.githubusercontent.com/108201954/175798377-7f8b0fc7-4548-4be8-a711-cc19ef7e7cbe.png)  -  Gaston Baravalle  ![Screenshot_12](https://user-images.githubusercontent.com/108201954/175798420-ec449fb8-9407-437c-a984-6ce9d9782df7.png)
+Gino Rojo  ![Screenshot_11](https://user-images.githubusercontent.com/108201954/175798377-7f8b0fc7-4548-4be8-a711-cc19ef7e7cbe.png)  Gaston Baravalle  ![Screenshot_12](https://user-images.githubusercontent.com/108201954/175798420-ec449fb8-9407-437c-a984-6ce9d9782df7.png)
 
 
 

@@ -4,14 +4,13 @@
 #
 
 
-* Sr. Andrés Dominguez   - 
+* Sr. Andrés Dominguez   
 * email: andres.bmth.bt@gmail.com
 * Linkedin : https://www.linkedin.com/in/andres-dominguez-554206198
 * Actividad LaboraL : Estudiante  
-* Carrera en curso: BootCamp de DevOps Engineer
+* Carrera en curso: BootCamp de DevOps Engineer 
 
 ![Screenshot_7](https://user-images.githubusercontent.com/108201954/175798249-af94b896-acbe-45bd-bf4b-c78b33405ccc.png)
-
 
 
 #

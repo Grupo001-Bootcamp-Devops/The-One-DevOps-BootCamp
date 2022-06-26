@@ -88,3 +88,17 @@
 #
 
 
+Profesores ; 
+
+Gino Rojo 
+
+![Screenshot_11](https://user-images.githubusercontent.com/108201954/175798377-7f8b0fc7-4548-4be8-a711-cc19ef7e7cbe.png)
+
+#
+
+Gaston Baravalle
+
+![Screenshot_12](https://user-images.githubusercontent.com/108201954/175798420-ec449fb8-9407-437c-a984-6ce9d9782df7.png)
+
+
+

@@ -1,5 +1,5 @@
 
-# Integrantes .Grupo ** The One **
+# Integrantes Grupo ** The One **
 #
 #
 
@@ -17,7 +17,7 @@
 * Linkedin : https://www.linkedin.com/in/martin-manzanelli-a489b7216
 * Actividad LaboraL : Estudiante  
 * Carrera en curso: BootCamp de DevOps Engineer
-*
+
 #
 
 * Sr. Juan Strack
@@ -55,8 +55,8 @@
 
 * Sr. Marcelo Piroddi
 * 4familias@gmail.com
-* Linkedin : 
-* Actividad LaboraL : Carppintero  
+* Linkedin : en proceso
+* Actividad LaboraL : Carpintero  
 * Carrera en curso: BootCamp de DevOps Engineer
 
 

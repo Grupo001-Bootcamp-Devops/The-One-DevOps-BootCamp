@@ -10,6 +10,10 @@
 * Actividad LaboraL : Estudiante  
 * Carrera en curso: BootCamp de DevOps Engineer
 
+![Screenshot_7](https://user-images.githubusercontent.com/108201954/175798249-af94b896-acbe-45bd-bf4b-c78b33405ccc.png)
+
+
+
 #
 
 * Sr. Martin Manzanelli 
@@ -17,6 +21,9 @@
 * Linkedin : https://www.linkedin.com/in/martin-manzanelli-a489b7216
 * Actividad LaboraL : Estudiante  
 * Carrera en curso: BootCamp de DevOps Engineer
+
+![Screenshot_8](https://user-images.githubusercontent.com/108201954/175798254-3f80d3af-cbbd-4cfc-865a-06e1cf185f37.png)
+
 
 #
 
@@ -26,6 +33,10 @@
 * Actividad LaboraL : Estudiante  
 * Carrera en curso: BootCamp de DevOps Engineer
 
+![Screenshot_9](https://user-images.githubusercontent.com/108201954/175798303-383effa1-7951-4f3f-bf75-15ae1db18f86.png)
+
+
+
 #
 
 * Sr.  Francisco Jose Herrero
@@ -33,6 +44,9 @@
 * Linkedin : https://www.linkedin.com/in/francisco-herrero-48a7b5167
 * Actividad LaboraL : Estudiante  
 * Carrera en curso: BootCamp de DevOps Engineer
+* 
+![Screenshot_8](https://user-images.githubusercontent.com/108201954/175798276-9e245d3a-53bd-4973-bb61-d562d7a2a6a6.png)
+
 
 #
 	
@@ -41,6 +55,8 @@
 * Linkedin: https://www.linkedin.com/in/anibal-castro-ruiz-868ab563/
 * Actividad LaboraL : Estudiante  
 * Carrera en curso: BootCamp de DevOps Engineer
+* 
+![Screenshot_5](https://user-images.githubusercontent.com/108201954/175798275-dbb455d9-d9c5-41b7-8d04-b630dbc01002.png)
 
 #
 
@@ -51,6 +67,9 @@
 * Actividad LaboraL : Estudiante  
 * Carrera en curso: BootCamp de DevOps Engineer
 
+![Screenshot_4](https://user-images.githubusercontent.com/108201954/175798265-22c727a0-1d23-4cbc-9053-3d2f24bda5f6.png)
+
+
 #
 
 * Sr. Marcelo Piroddi
@@ -58,6 +77,8 @@
 * Linkedin : en proceso
 * Actividad LaboraL : Carpintero  
 * Carrera en curso: BootCamp de DevOps Engineer
+
+![Screenshot_3](https://user-images.githubusercontent.com/108201954/175798268-05411806-e423-4f27-868a-dc01963fb123.png)
 
 
 #

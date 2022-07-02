@@ -11,3 +11,6 @@ code --install-extension redhat.vscode-yaml
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-kubernetes-tools.vscode-kubernetes-tools
 code --install-extension mindaro.mindaro
+code --install-extension ms-kubernetes-tools.vscode-aks-tools
+code --install-extension Okteto.remote-kubernetes
+code --install-extension p1c2u.jenkins

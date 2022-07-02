@@ -1,0 +1,8 @@
+Tareas realizadas (*), en proceso(+) y con problemas encontrados(-) divididas por sprint:
+Sprint 1: 
+    * Instalar Git y pull del directorio:https://trello.com/c/PmMGji5V/6-instalar-%C3%BAltima-versi%C3%B3n-de-git-y-crear-un-directorio-para-el-repositorio-de-github-para-luego-sincronizarlo
+    * Creación de repositorio e invitación de los miembros: https://trello.com/c/s1CxtB3Q/1-creaci%C3%B3n-repositorio-en-github-e-invitaci%C3%B3n-de-los-miembros
+    - Integración de Trello con Jira: https://trello.com/c/QPSoplhM/13-integrar-tablero-de-trello-con-jira-y-atlassian
+Sprint 2:
+    + Instalar última versión de VSCode y plugins: https://trello.com/c/BlKX0lA5/7-instalar-%C3%BAltima-versi%C3%B3n-de-visual-studio-plugins
+    + Sincronizar VSCode con GitHub: https://trello.com/c/dGskFsGh/8-sp2-sincronizar-visual-studio-code-con-la-cuenta-de-github

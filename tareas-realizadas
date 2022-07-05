@@ -4,6 +4,16 @@ Sprint 1:
     * Creación de repositorio e invitación de los miembros: https://trello.com/c/s1CxtB3Q/1-creaci%C3%B3n-repositorio-en-github-e-invitaci%C3%B3n-de-los-miembros
     - Integración de Trello con Jira: https://trello.com/c/QPSoplhM/13-integrar-tablero-de-trello-con-jira-y-atlassian
 Sprint 2:
-    + Instalar última versión de VSCode y plugins: https://trello.com/c/BlKX0lA5/7-instalar-%C3%BAltima-versi%C3%B3n-de-visual-studio-plugins
-    + Sincronizar VSCode con GitHub: https://trello.com/c/dGskFsGh/8-sp2-sincronizar-visual-studio-code-con-la-cuenta-de-github
+    * Instalar última versión de VSCode y plugins: https://trello.com/c/BlKX0lA5
+    * Sincronizar VSCode con GitHub: https://trello.com/c/dGskFsGh
+    * Instalar última versión de NodeJS y poder utilizarlo en Visual Studio: https://trello.com/c/SsG6QzuA
+Sprint 3:
+    * Creacion de cuentas en proveedores cloud (concluidos en fase 2)
+        * AWS:    https://trello.com/c/EU8JgMOA
+        * GCP:    https://trello.com/c/G8qLA099
+        * Azure:  https://trello.com/c/bu5dA5GF
+    * Creacion de instancia con Windows server 2022 en South America: https://trello.com/c/aRIQwObS
+    * Creacion de instancia Ubuntu en ASIA:  https://trello.com/c/t2EdeXKn 
+    + Creacion de instancia con Windows Server 2016 en C de south america: https://trello.com/c/uYHsjOM3
+    * Homogenizacion de Ambiente, creacion de AMI con Herramientas para el equipo DevOps https://trello.com/c/RaGs41TQ
 

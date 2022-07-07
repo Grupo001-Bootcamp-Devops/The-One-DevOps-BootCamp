@@ -30,7 +30,7 @@
 
 * Sr. Juan Strack
 * Email: juanstrack@gmail.com
-* Linkedin : https://www.linkedin.com/in/juan-strack-a49947184
+* Linkedin : https://www.linkedin.com/in/strack-juan
 * Actividad LaboraL : Estudiante  
 * Carrera en curso: BootCamp de DevOps Engineer
 * Rol en el equipo: Scrum Master

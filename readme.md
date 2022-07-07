@@ -38,31 +38,6 @@
 ![Screenshot_9](https://user-images.githubusercontent.com/108201954/175798303-383effa1-7951-4f3f-bf75-15ae1db18f86.png)
 
 
-
-#
-
-* Sr.  Francisco Jose Herrero
-* Email: herrerofranciscojose@gmail.com
-* Linkedin : https://www.linkedin.com/in/francisco-herrero-48a7b5167
-* Actividad LaboraL : Estudiante  
-* Carrera en curso: BootCamp de DevOps Engineer
-* Rol en el equipo: Developer
-
-![Screenshot_3](https://user-images.githubusercontent.com/108201954/175798596-0652fefb-3597-4816-a58e-4888a523aa74.png)
-
-
-
-#
-	
-* Sr.  Anibal Castro Ruiz 
-* Mail: acastroruiz86@gmail.com
-* Linkedin: https://www.linkedin.com/in/anibal-castro-ruiz-868ab563/
-* Actividad LaboraL : Estudiante  
-* Carrera en curso: BootCamp de DevOps Engineer
-* Rol en el equipo: Developer
-* 
-![Screenshot_5](https://user-images.githubusercontent.com/108201954/175798275-dbb455d9-d9c5-41b7-8d04-b630dbc01002.png)
-
 #
 
 

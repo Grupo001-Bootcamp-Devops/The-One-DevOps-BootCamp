@@ -1,12 +1,28 @@
 import logo from './assets/logo.svg';
 import logonav from './assets/logonav.svg';
-import GlobeIcon from './assets/globe-solid.svg';
-import CloudIcon from './assets/cloud-solid.svg';
-import CircleNodesIcon from './assets/circle-nodes-solid.svg';
+import GlobeIcon from './assets/icons/globe-solid.png';
+import CloudIcon from './assets/icons/cloud-solid.png';
+import CircleNodesIcon from './assets/icons/circle-nodes-solid.png';
+import client1 from './assets/clients/client-1.png';
+import client2 from './assets/clients/client-2.png';
+import client3 from './assets/clients/client-3.png';
+import client4 from './assets/clients/client-4.png';
+import client5 from './assets/clients/client-5.png';
+import client6 from './assets/clients/client-6.png';
+import client7 from './assets/clients/client-7.png';
+import client8 from './assets/clients/client-8.png';
+import team1 from './assets/team/team-andres.jfif';
+import team2 from './assets/team/team-juan.jfif';
+import team3 from './assets/team/team-martin.jfif';
+import team4 from './assets/team/team-flor.jfif';
+import team5 from './assets/team/team-brian.jfif';
+import team6 from './assets/team/team-marce.jfif';
 import bgimg from './assets/mainbackground.jpg';
-import card1 from './assets/card1.jpg';
-import card2 from './assets/card2.jpg';
-import card3 from './assets/card3.jpg';
+import LinkedInIcon from './assets/icons/linkedin-in-brands.png';
+import TwitterIcon from './assets/icons/twitter-brands.png';
+import MailIcon from './assets/icons/envelope-solid.png';
+import GitHubIcon from './assets/icons/github-brands.png';
+import Arrow from './assets/icons/arrow-up-solid.png';
 import './App.css';
 
 function App() {
@@ -20,9 +36,10 @@ function App() {
           <div className="menu">
             <ul>
               <li><a href="#top">Home</a></li>
-              <li><a href="#about">About Us</a></li>
               <li><a href="#services">Services</a></li>
+              <li><a href="#about">About Us</a></li>
               <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#clients">Clients</a></li>
               <li><a href="#team">Team</a></li>
               <li><a href="#contact">Contact Us</a></li>
             </ul>
@@ -46,46 +63,15 @@ function App() {
         </div>
       </main>
 
-      <section className="about" id="about">
-        <div className="title">
-          <h2>About Us</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua.</p>
-        </div>
-        <div className="about-cards-container">
-          <div className="about-cards">
-          <img src={card1} className="about-cards-img" alt="IT" />
-          <h4>Corporis dolorem</h4>
-              <p>Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut
-                voluptatibus.</p>
-              <div><a href="#top">read more</a></div>
-          </div>
-          <div className="about-cards">
-          <img src={card2} className="about-cards-img" alt="IT" />
-          <h4>Consectetur optio</h4>
-              <p>Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut
-                voluptatibus.</p>
-              <div><a href="#top">read more</a></div>
-          </div>
-          <div className="about-cards">
-          <img src={card3} className="about-cards-img" alt="IT" />
-          <h4>Aliquam nobis</h4>
-              <p>Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut
-                voluptatibus.</p>
-              <div><a href="#top">read more</a></div>
-          </div>
-        </div>
-      </section>
-
       <section className="services" id="services">
-        <div className="title">
-          <h2>Services</h2>
+        <div className="services-title">
+          <h2>OUR SERVICES</h2>
           <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.
           </p>
         </div>
         <div className="wc-container">
           <div className="whitecards">
-            <div className="wc-1"><icon src={GlobeIcon} /></div>
+            <div className="wc-1"><img src={GlobeIcon} className="icons" alt="globe icon"/></div>
             <div className="data-paragraph">
               <a href="#top">
                 <h4>Lorem Ipsum</h4>
@@ -97,7 +83,7 @@ function App() {
             </div>
           </div>
           <div className="whitecards">
-            <div className="wc-2"><icon src={CloudIcon}/></div>
+            <div className="wc-2"><img src={CloudIcon} className="icons" alt="cloud icon"/></div>
             <div className="data-paragraph">
               <a href="#top">
                 <h4>Dolor Sitema</h4>
@@ -107,7 +93,7 @@ function App() {
             </div>
           </div>
           <div className="whitecards">
-            <div className="wc-3"><icon src={CircleNodesIcon}/></div>
+            <div className="wc-3"><img src={CircleNodesIcon} className="icons" alt="nodes icon"/></div>
             <div className="data-paragraph">
               <a href="#top">
                 <h4>Sed ut perspiciatis</h4>
@@ -120,177 +106,189 @@ function App() {
         </div>
       </section>
 
-      <section className="choose">
-        <div className="titulo">
-          <h2>Why choose us?</h2>
+      <section className="about" id="about">
+        <div className="about-title">
+          <h2>WHY CHOOSE US?</h2>
           <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.
           </p>
         </div>
         <div className="bc-container">
           <div className="bluecards">
-            <i className="far fa-gem" aria-hidden="true"></i>
             <h4>Corporis dolorem</h4>
             <p>Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut
+              voluptatibus. Autem quod nesciunt eos ea aut amet laboriosam ab. Eos quis porro in non nemo ex.</p>
+            <div><a href="#top">Read more</a></div>
+          </div>
+          <div className="bluecards">
+            <h4>Voluptates dolores</h4>
+            <p>Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur. Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut
               voluptatibus.</p>
             <div><a href="#top">Read more</a></div>
           </div>
           <div className="bluecards">
-            <i className="fa fa-language" aria-hidden="true"></i>
-            <h4>Voluptates dolores</h4>
-            <p>Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur.</p>
-            <div><a href="#top">Read more</a></div>
-          </div>
-          <div className="bluecards">
-            <i className="far fa-object-group" aria-hidden="true"></i>
             <h4>Eum ut aspernatur</h4>
-            <p>Autem quod nesciunt eos ea aut amet laboriosam ab. Eos quis porro in non nemo ex.</p>
+            <p>Autem quod nesciunt eos ea aut amet laboriosam ab. Eos quis porro in non nemo ex. Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur. </p>
             <div><a href="#top">Read more</a></div>
           </div>
         </div>
         <div className="numbers">
-          <div>
+          <div className="numbers-box">
             <h1>274</h1>
             <p>Clients</p>
           </div>
-          <div>
+          <div className="numbers-box">
             <h1>421</h1>
             <p>Projects</p>
           </div>
-          <div>
+          <div className="numbers-box">
             <h1>1,364</h1>
             <p>Hours Of Support</p>
           </div>
-          <div>
+          <div className="numbers-box">
             <h1>18</h1>
             <p>Hard Workers</p>
           </div>
         </div>
       </section>
 
-      <section className="pricing" id="#pricing">
-        <div className="titulo">
-          <h2>Why choose us?</h2>
+      <section className="pricing" id="pricing">
+        <div className="services-title">
+          <h2>PRICING</h2>
           <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.
           </p>
         </div>
-        <div className="bc-container">
-          <div className="bluecards">
-            <i className="far fa-gem" aria-hidden="true"></i>
-            <h4>Corporis dolorem</h4>
-            <p>Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut
-              voluptatibus.</p>
-            <div><a href="#top">Read more</a></div>
+        <div className="wc-container">
+          <div className="whitecards">
+            <div className="pricing-data">
+              <h4>ECONOMY</h4>
+              <h3>$9.99</h3>
+              <p>PER MONTH</p>
+              <ul>
+                <li>Bandwidth: <span>1GB</span></li>
+                <li>Onlinespace: <span>50MB</span></li>
+                <li>Support: <span>NO</span></li>
+                <li>Domain: <span>1</span></li>
+              </ul>
+              <a href="#top"><button className='pricing-button' type="button">GET IT</button></a>
+            </div>
           </div>
-          <div className="bluecards">
-            <i className="fa fa-language" aria-hidden="true"></i>
-            <h4>Voluptates dolores</h4>
-            <p>Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur.</p>
-            <div><a href="#top">Read more</a></div>
+          <div className="whitecards">
+            <div className="pricing-data">
+              <h4>DELUXE</h4>
+              <h3>$19.99</h3>
+              <p>PER MONTH</p>
+              <ul>
+              <li>Bandwidth: <span>10GB</span></li>
+                <li>Onlinespace: <span>500MB</span></li>
+                <li>Support: <span>NO</span></li>
+                <li>Domain: <span>10</span></li>
+              </ul>
+              <a href="#top"><button className='pricing-button' type="button">GET IT</button></a>
+            </div>
           </div>
-          <div className="bluecards">
-            <i className="far fa-object-group" aria-hidden="true"></i>
-            <h4>Eum ut aspernatur</h4>
-            <p>Autem quod nesciunt eos ea aut amet laboriosam ab. Eos quis porro in non nemo ex.</p>
-            <div><a href="#top">Read more</a></div>
-          </div>
-        </div>
-        <div className="numbers">
-          <div>
-            <h1>274</h1>
-            <p>Clients</p>
-          </div>
-          <div>
-            <h1>421</h1>
-            <p>Projects</p>
-          </div>
-          <div>
-            <h1>1,364</h1>
-            <p>Hours Of Support</p>
-          </div>
-          <div>
-            <h1>18</h1>
-            <p>Hard Workers</p>
+          <div className="whitecards">
+            <div className="pricing-data">
+              <h4>ULTIMATE</h4>
+              <h3>$29.99</h3>
+              <p>PER MONTH</p>
+              <ul>
+                <li>Bandwidth: <span>100GB</span></li>
+                <li>Onlinespace: <span>2GB</span></li>
+                <li>Support: <span>YES</span></li>
+                <li>Domain: <span>UNLIMITED</span></li>
+              </ul>
+              <a href="#top"><button className='pricing-button' type="button">GET IT</button></a>              
+            </div>
           </div>
         </div>
       </section>
 
       <section className="team" id="team">
-        <div className="titulo">
-          <h2>Team</h2>
+        <div className="team-title">
+          <h2>TEAM</h2>
           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
         </div>
         <div className="team-images">
           <div className="img-container">
+            <img src={team1} className="team-img" alt="team member"/>
               <div className="img-cont-hover">
                 <div className="img-cont-info">
-                  <h2>Ben Affleck</h2>
-                  <p>Chief Executive Officer</p>
+                  <h2>Andres Dominguez</h2>
+                  <p>Product Owner</p>
                   <div className="rrss-links">
-                    <div className="rrss"><a href="https://twitter.com/?lang=es"><i className="fab fa-twitter"></i></a>
-                    </div>
-                    <div className="rrss"><a href="https://es-la.facebook.com/"><i
-                      className="fab fa-facebook-f"></i></a></div>
-                    <div className="rrss"><a href="https://plus.google.com/about?hl=es"><i
-                      className="fab fa-google-plus-g"></i></a></div>
-                    <div className="rrss"><a href="https://ar.linkedin.com/"><i className="fab fa-linkedin-in"></i></a>
-                    </div>
+                    <div className="rrss"><a href="https://www.linkedin.com/in/andres-dominguez/"><img src={LinkedInIcon} className="icons" alt="Linkedin icon"/></a></div>
+                    <div className="rrss"><a href="https://twitter.com/?lang=es"><img src={TwitterIcon} className="icons" alt="Twitter icon"/></a></div>
+                    <div className="rrss"><a href="mailto:andres.bmth.bt@gmail.com"><img src={MailIcon} className="icons" alt="Mail icon"/></a></div>
                   </div>
                 </div>
               </div>
           </div>
           <div className="img-container">
-            
+            <img src={team2} className="team-img" alt="team member"/>
               <div className="img-cont-hover">
                 <div className="img-cont-info">
-                  <h2>Christian Bale</h2>
-                  <p>Product Manager</p>
+                  <h2>Juan Strack</h2>
+                  <p>Scrum Master</p>
                   <div className="rrss-links">
-                    <div className="rrss"><a href="https://twitter.com/?lang=es"><i className="fab fa-twitter"></i></a>
-                    </div>
-                    <div className="rrss"><a href="https://es-la.facebook.com/"><i
-                      className="fab fa-facebook-f"></i></a></div>
-                    <div className="rrss"><a href="https://plus.google.com/about?hl=es"><i
-                      className="fab fa-google-plus-g"></i></a></div>
-                    <div className="rrss"><a href="https://ar.linkedin.com/"><i className="fab fa-linkedin-in"></i></a>
-                    </div>
+                  <div className="rrss"><a href="https://www.linkedin.com/in/strack-juan/"><img src={LinkedInIcon} className="icons" alt="Linkedin icon"/></a></div>
+                    <div className="rrss"><a href="https://twitter.com/?lang=es"><img src={TwitterIcon} className="icons" alt="Twitter icon"/></a></div>
+                    <div className="rrss"><a href="mailto:juanstrack@gmail.com"><img src={MailIcon} className="icons" alt="Mail icon"/></a></div>
                   </div>
                 </div>
               </div>
           </div>
           <div className="img-container">
-            
+            <img src={team3} className="team-img" alt="team member"/>
               <div className="img-cont-hover">
                 <div className="img-cont-info">
-                  <h2>Michael Keaton</h2>
-                  <p>CTO</p>
+                  <h2>Martin Manzanelli</h2>
+                  <p>Dev Team</p>
                   <div className="rrss-links">
-                    <div className="rrss"><a href="https://twitter.com/?lang=es"><i className="fab fa-twitter"></i></a>
-                    </div>
-                    <div className="rrss"><a href="https://es-la.facebook.com/"><i
-                      className="fab fa-facebook-f"></i></a></div>
-                    <div className="rrss"><a href="https://plus.google.com/about?hl=es"><i
-                      className="fab fa-google-plus-g"></i></a></div>
-                    <div className="rrss"><a href="https://ar.linkedin.com/"><i className="fab fa-linkedin-in"></i></a>
-                    </div>
+                  <div className="rrss"><a href="https://www.linkedin.com/in/martin-manzanelli/"><img src={LinkedInIcon} className="icons" alt="Linkedin icon"/></a></div>
+                    <div className="rrss"><a href="https://twitter.com/?lang=es"><img src={TwitterIcon} className="icons" alt="Twitter icon"/></a></div>
+                    <div className="rrss"><a href="mailto:m_manzanelli@hotmail.com"><img src={MailIcon} className="icons" alt="Mail icon"/></a></div>
                   </div>
                 </div>
               </div>
           </div>
           <div className="img-container">
-            
+            <img src={team4} className="team-img" alt="team member"/>
               <div className="img-cont-hover">
                 <div className="img-cont-info">
-                  <h2>Adam West</h2>
-                  <p>Accountant</p>
+                  <h2>Florencia Guzzi</h2>
+                  <p>Dev Team</p>
                   <div className="rrss-links">
-                    <div className="rrss"><a href="https://twitter.com/?lang=es"><i className="fab fa-twitter"></i></a>
-                    </div>
-                    <div className="rrss"><a href="https://es-la.facebook.com/"><i
-                      className="fab fa-facebook-f"></i></a></div>
-                    <div className="rrss"><a href="https://plus.google.com/about?hl=es"><i
-                      className="fab fa-google-plus-g"></i></a></div>
-                    <div className="rrss"><a href="https://ar.linkedin.com/"><i className="fab fa-linkedin-in"></i></a>
-                    </div>
+                  <div className="rrss"><a href="https://www.linkedin.com/in/mfguzzi/"><img src={LinkedInIcon} className="icons" alt="Linkedin icon"/></a></div>
+                    <div className="rrss"><a href="https://twitter.com/?lang=es"><img src={TwitterIcon} className="icons" alt="Twitter icon"/></a></div>
+                    <div className="rrss"><a href="mailto:mf.guzzi@gmail.com"><img src={MailIcon} className="icons" alt="Mail icon"/></a></div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div className="img-container">
+            <img src={team5} className="team-img" alt="team member"/>
+              <div className="img-cont-hover">
+                <div className="img-cont-info">
+                  <h2>Brian Sosa</h2>
+                  <p>Dev Team</p>
+                  <div className="rrss-links">
+                  <div className="rrss"><a href="https://www.linkedin.com/"><img src={LinkedInIcon} className="icons" alt="Linkedin icon"/></a></div>
+                    <div className="rrss"><a href="https://twitter.com/?lang=es"><img src={TwitterIcon} className="icons" alt="Twitter icon"/></a></div>
+                    <div className="rrss"><a href="mailto:"><img src={MailIcon} className="icons" alt="Mail icon"/></a></div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div className="img-container">
+            <img src={team6} className="team-img" alt="team member"/>
+              <div className="img-cont-hover">
+                <div className="img-cont-info">
+                  <h2>Marcelo Piroddi</h2>
+                  <p>Dev Team</p>
+                  <div className="rrss-links">
+                  <div className="rrss"><a href="https://www.linkedin.com/"><img src={LinkedInIcon} className="icons" alt="Linkedin icon"/></a></div>
+                    <div className="rrss"><a href="https://twitter.com/?lang=es"><img src={TwitterIcon} className="icons" alt="Twitter icon"/></a></div>
+                    <div className="rrss"><a href="mailto:4familias@gmail.com"><img src={MailIcon} className="icons" alt="Mail icon"/></a></div>
                   </div>
                 </div>
               </div>
@@ -298,105 +296,100 @@ function App() {
         </div>
       </section>
 
-      <section className="clients">
-        <div className="titulo">
-          <h2>Our Clients</h2>
+      <section className="clients" id="clients">
+        <div className="clients-title">
+          <h2>OUR CLIENTS</h2>
           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque dere santome nida.
           </p>
         </div>
         <div className="clients-images">
-          <div className="vinietas"></div>
-          <div className="vinietas"></div>
-          <div className="vinietas"></div>
-          <div className="vinietas"></div>
-          <div className="vinietas"></div>
-          <div className="vinietas"></div>
-          <div className="vinietas"></div>
-          <div className="vinietas"></div>
+            <div class="vinietas"><img src={client1} className="clients-img" alt="client logo"/></div>
+            <div class="vinietas"><img src={client2} className="clients-img" alt="client logo"/></div>
+            <div class="vinietas"><img src={client3} className="clients-img" alt="client logo"/></div>
+            <div class="vinietas"><img src={client4} className="clients-img" alt="client logo"/></div>
+            <div class="vinietas"><img src={client5} className="clients-img" alt="client logo"/></div>
+            <div class="vinietas"><img src={client6} className="clients-img" alt="client logo"/></div>
+            <div class="vinietas"><img src={client7} className="clients-img" alt="client logo"/></div>
+            <div class="vinietas"><img src={client8} className="clients-img" alt="client logo"/></div>
         </div>
       </section>
 
       <section className="contact" id="contact">
-        <div className="titulo">
-          <h2>Contact Us</h2>
+        <div className="contact-title">
+          <h2>CONTACT US</h2>
         </div>
-        <div className="contact-row">
-          <div className="mapa">
-            </div>
-          <div className="contact-info">
-            <div className="contact-data">
-              <div>
-                <i className="fas fa-map-marker-alt"></i>
-                <p>A108 Adam Street, NY 535022</p>
+        <div className="contact-content">
+        <div className="contact-address">
+          <h4>Office Address</h4>
+          <p>440 Terry Ave N, Seattle, WA 98109</p>
+          <h4>Telephone Number</h4>
+          <p>+1 206-266-1000</p>
+          <h4>Working Hours</h4>
+          <p>7:30 - 18:00</p>
+        </div>
+        <div className="form">
+          <form action="">
+              <div class="form-row">
+                  <input required className="short" type="text" name="name" minlength="4" placeholder="Your Name"
+                      data-msg="Please enter at least 4 chars"/>
+                  <input required className="short" type="email" name="email" placeholder="Your Email"
+                      data-msg="Please enter a valid email"/>
               </div>
-              <div>
-                <i className="far fa-envelope"></i>
-                <p>info@example.com</p>
-              </div>
-              <div>
-                <i className="fas fa-phone-alt"></i>
-                <p>+1 5589 55488 55</p>
-              </div>
-            </div>
-            <div className="form">
-            </div>
-          </div>
+              <input required type="text" name="subject" minlength="4" placeholder="Subject"/>
+              <textarea required name="message" rows="5" maxlength="150" placeholder="Message"
+                  data-msg="Please write something for us"></textarea>
+              <input className="send" type="submit" value="Send Message"/>
+          </form>
+        </div>
         </div>
       </section>
 
       <footer className="footer-1">
         <div className="footer-columns">
           <div className="ft-col-1">
-            <h1>WAYNE</h1>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies
-              darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin
-              fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+            <a href='#top'><img src={logo} className="logo" alt="logo" /></a>
           </div>
           <div className="ft-col-2">
             <h4>USEFUL LINKS</h4>
             <ul>
-              <li><a href="#header">Home</a></li>
-              <li><a href="#about">About us</a></li>
+              <li><a href="#top">Home</a></li>
               <li><a href="#services">Services</a></li>
-              <li><a href="#header">Terms of service</a></li>
-              <li><a href="#header">Privacy policy</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#clients">Clients</a></li>
+              <li><a href="#team">Team</a></li>
+              <li><a href="#contact">Contact Us</a></li>
             </ul>
           </div>
           <div className="ft-col-3">
             <div>
               <h4>CONTACT US</h4>
-              <p>Adam Street</p>
+              <p>440 Terry Ave N, Seattle</p>
+              <p>+1 206-266-1000</p>
+              <p>7:30 - 18:00</p>
             </div>
             <div className="icons">
-              <div className="rrss"><a href="https://twitter.com/?lang=es"><i className="fab fa-twitter"></i></a></div>
-              <div className="rrss"><a href="https://es-la.facebook.com/"><i className="fab fa-facebook-f"></i></a></div>
-              <div className="rrss"><a href="https://www.instagram.com/?hl=es-la"><i className="fab fa-instagram"></i></a>
+              <div className="rrss"><a href="https://github.com/Grupo001-Bootcamp-Devops"><img src={GitHubIcon} alt="github icon"/></a>
               </div>
-              <div className="rrss"><a href="https://plus.google.com/about?hl=es"><i
-                className="fab fa-google-plus-g"></i></a></div>
-              <div className="rrss"><a href="https://ar.linkedin.com/"><i className="fab fa-linkedin-in"></i></a></div>
             </div>
           </div>
           <div className="ft-col-4">
             <div>
-              <h4>OUR NEWSLETTER</h4>
-              <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam
-                illum dolore
-                legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
-            </div>
+              <h4>SUBSCRIBE TO OUR NEWSLETTER</h4>
+              <input required className="subscribe" type="email" name="email" placeholder="Your Email"
+              data-msg="Please enter a valid email"/></div>
+              <p>Sign up for our weekly newsletter to get the latest news, updates and amazing offers.</p>
           </div>
         </div>
       </footer>
 
       <footer className="copyright">
-        <p>© Copyright <span>Wayne Enterprises</span>.</p>
+        <p>© Copyright <span>THE ONE cloud architecture</span></p>
         <p>All Rights Reserved</p>
-        <p>Designed by <a href="#header">...</a></p>
         <div>
-          <div className="arrow"><a href="#top"><i className="fas fa-angle-up"></i></a></div>
+          <div className="arrow"><a href="#top"><img src={Arrow} alt="arrow icon"/></a></div>
         </div>
       </footer>
-
     </div>
   );
 }

@@ -1,15 +1,21 @@
 import logo from './assets/logo.svg';
 import logonav from './assets/logonav.svg';
+import GlobeIcon from './assets/globe-solid.svg';
+import CloudIcon from './assets/cloud-solid.svg';
+import CircleNodesIcon from './assets/circle-nodes-solid.svg';
 import bgimg from './assets/mainbackground.jpg';
+import card1 from './assets/card1.jpg';
+import card2 from './assets/card2.jpg';
+import card3 from './assets/card3.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="#header">
+      <header id="#header">
         <nav>
           <div className="logonav">
-            <a href='#top'><img src={logonav} className="App-logo" alt="logo" /></a>
+            <a href='#top'><img src={logonav} className="menu-icon" alt="logo" /></a>
           </div>
           <div className="menu">
             <ul>
@@ -24,11 +30,10 @@ function App() {
         </nav>
       </header>
 
-      <main id="#main">
+      <main>
         <img src={bgimg} className="bg-img" alt="background" />
         <div className="main-container">
-          
-          <div>
+          <div className="main-title">
             <h1>We provide solutions for your business.</h1>
             <div className="buttons">
               <button type="button"><a href="#about">Get Started</a></button>
@@ -42,61 +47,45 @@ function App() {
       </main>
 
       <section className="about" id="about">
-        <div className="titulo">
+        <div className="title">
           <h2>About Us</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua.</p>
         </div>
-        <div className="info-columns">
-          <div className="info-col-text">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat.</p>
-            <div className="data">
-              <div className="about-icons"><i className="fa fa-shopping-bag"></i></div>
-              <div className="data-paragraph">
-                <a href="#top">
-                  <h4>Eiusmod Tempor</h4>
-                </a>
-                <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta
-                  nobis est eligendi</p>
-              </div>
-            </div>
-            <div className="data">
-              <div className="about-icons"><i className="fa fa-photo"></i></div>
-              <div className="data-paragraph">
-                <a href="#top">
-                  <h4>Magni Dolores</h4>
-                </a>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                  anim id
-                  est laborum</p>
-              </div>
-            </div>
-            <div className="data">
-              <div className="about-icons"><i className="fa fa-bar-chart"></i></div>
-              <div className="data-paragraph">
-                <a href="#top">
-                  <h4>Dolor Sitema</h4>
-                </a>
-                <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                  consequat
-                  tarad limino ata</p>
-              </div>
-            </div>
+        <div className="about-cards-container">
+          <div className="about-cards">
+          <img src={card1} className="about-cards-img" alt="IT" />
+          <h4>Corporis dolorem</h4>
+              <p>Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut
+                voluptatibus.</p>
+              <div><a href="#top">read more</a></div>
+          </div>
+          <div className="about-cards">
+          <img src={card2} className="about-cards-img" alt="IT" />
+          <h4>Consectetur optio</h4>
+              <p>Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut
+                voluptatibus.</p>
+              <div><a href="#top">read more</a></div>
+          </div>
+          <div className="about-cards">
+          <img src={card3} className="about-cards-img" alt="IT" />
+          <h4>Aliquam nobis</h4>
+              <p>Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut
+                voluptatibus.</p>
+              <div><a href="#top">read more</a></div>
           </div>
         </div>
       </section>
 
       <section className="services" id="services">
-        <div className="titulo">
+        <div className="title">
           <h2>Services</h2>
           <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.
           </p>
         </div>
         <div className="wc-container">
           <div className="whitecards">
-            <div className="wc-1"></div>
+            <div className="wc-1"><icon src={GlobeIcon} /></div>
             <div className="data-paragraph">
               <a href="#top">
                 <h4>Lorem Ipsum</h4>
@@ -108,7 +97,7 @@ function App() {
             </div>
           </div>
           <div className="whitecards">
-            <div className="wc-2"></div>
+            <div className="wc-2"><icon src={CloudIcon}/></div>
             <div className="data-paragraph">
               <a href="#top">
                 <h4>Dolor Sitema</h4>
@@ -118,7 +107,7 @@ function App() {
             </div>
           </div>
           <div className="whitecards">
-            <div className="wc-3"></div>
+            <div className="wc-3"><icon src={CircleNodesIcon}/></div>
             <div className="data-paragraph">
               <a href="#top">
                 <h4>Sed ut perspiciatis</h4>
@@ -126,39 +115,6 @@ function App() {
               <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                 pariatur
               </p>
-            </div>
-          </div>
-          <div className="whitecards">
-            <div className="wc-4"></div>
-            <div className="data-paragraph">
-              <a href="#top">
-                <h4>Magni Dolores</h4>
-              </a>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                est
-                laborum</p>
-            </div>
-          </div>
-          <div className="whitecards">
-            <div className="wc-5"></div>
-            <div className="data-paragraph">
-              <a href="#top">
-                <h4>Nemo Enim</h4>
-              </a>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-                deleniti
-                atque</p>
-            </div>
-          </div>
-          <div className="whitecards">
-            <div className="wc-6"></div>
-            <div className="data-paragraph">
-              <a href="#top">
-                <h4>Eiusmod Tempor</h4>
-              </a>
-              <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis
-                est
-                eligendi</p>
             </div>
           </div>
         </div>
@@ -211,7 +167,7 @@ function App() {
         </div>
       </section>
 
-      <section className="pricing">
+      <section className="pricing" id="#pricing">
         <div className="titulo">
           <h2>Why choose us?</h2>
           <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.

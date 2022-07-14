@@ -233,7 +233,7 @@ function App() {
                   <h2>Andres Dominguez</h2>
                   <p>Product Owner</p>
                   <div className="rrss-links">
-                    <div className="rrss"><a href="https://www.linkedin.com/in/andres-dominguez/"><img src={LinkedInIcon} className="icons" alt="Linkedin icon"/></a></div>
+                    <div className="rrss"><a href="https://www.linkedin.com/in/dominguez-andres/"><img src={LinkedInIcon} className="icons" alt="Linkedin icon"/></a></div>
                     <div className="rrss"><a href="https://twitter.com/?lang=es"><img src={TwitterIcon} className="icons" alt="Twitter icon"/></a></div>
                     <div className="rrss"><a href="mailto:andres.bmth.bt@gmail.com"><img src={MailIcon} className="icons" alt="Mail icon"/></a></div>
                   </div>

@@ -791,7 +791,6 @@ span {
 .vinietas img:hover {
   width: 80%;
 }
-
 @media (max-width: 600px) {
   .clients {
     padding: 20px 5%;
@@ -886,15 +885,7 @@ form input[type=submit] {
   border: 2px solid #089ce2;
   transition: all 0.5s;
 }
-
-@media (max-width: 1200px) {
-  .contact {
-    height: 100%;
-    padding: 20px 5%;
-  }
-
-}
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .contact-address {
     display: none;
   }
@@ -903,7 +894,6 @@ form input[type=submit] {
     flex-direction: column;
     align-items: center;
   }
-  
 }
 /* --- FOOTER --- */
 .footer-1 {
@@ -973,7 +963,7 @@ form input[type=submit] {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  flex-basis: 40%;
+  flex-basis: 30%;
 }
 .ft-col-4 p {
   font-size: 12px;
@@ -987,80 +977,30 @@ form input[type=submit] {
   border: none;
   border-radius: 5px;
 }
-
-@media (max-width: 1000px) and (min-width: 600px) {
+@media (max-width: 1000px) and (min-width: 800px) {
   .footer-1 {
-    padding: 60px 5%;
+    padding: 10px 20%;
   }
   .footer-columns {
-    padding: 10px 5%;
+    padding: 10px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-between;
   }
-  .ft-col-1 {
-    height: 300px;
-    flex-basis: 40%;
-  }
-  .ft-col-2, .ft-col-3 {
-    display: none;
-  }
-  .ft-col-3 .icons {
-    display: block;
-  }
-  .ft-col-4 {
-    height: 300px;
-    margin-top: 40px;
-    flex-basis: 40%;
-  }
-  .ft-col-4 p {
-    height: 120px;
+  .ft-col-1, .ft-col-2, .ft-col-3 {
+    width: 20%;
+    margin: 5px;
   }
   .subscribe {
     margin-top: 5px;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .footer-1 {
-    padding: 30px 5%;
+    padding: 10px 20%;
   }
-  .footer-columns {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .ft-col-1 {
-    flex-basis: 100%;
-    margin: 10px 5px;
-    padding-bottom: 10px;
-  }
-  .ft-col-1 p {
-    height: 100%;
-  }
-  .ft-col-2 {
-    flex-basis: 50%;
-    margin: 10px 5px;
-    padding-bottom: 10px;
-    height: 100%;
-  }
-  .ft-col-2 ul {
-    margin: 0;
-    padding: 15px 0;
-    height: 100%;
-  }
-  .ft-col-3 {
-    flex-basis: 50%;
-    margin: 10px 5px;
-    padding-bottom: 10px;
-    height: 100%;
-  }
-  .ft-col-3 div p {
-    height: 100%;
-    margin: 15px 0;
-  }
-  .icons {
-    margin-top: 15px;
-    display: flex;
-    justify-content: flex-start;
+  .ft-col-1, .ft-col-2, .ft-col-3 {
+    display: none;
   }
   .ft-col-4 {
     flex-basis: 100%;
@@ -1117,7 +1057,6 @@ form input[type=submit] {
   color: #eee;
   background-color: #1d224c;
 }
-
 @media (max-width: 600px) {
   .copyright {
     padding: 20px 5%;

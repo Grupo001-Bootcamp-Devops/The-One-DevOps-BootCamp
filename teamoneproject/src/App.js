@@ -1,5 +1,7 @@
 import logo from './assets/logo.svg';
 import logonav from './assets/logonav.svg';
+import menuIcon from './assets/icons/menu.png';
+import closeIcon from './assets/icons/close.png';
 import GlobeIcon from './assets/icons/globe-solid.png';
 import CloudIcon from './assets/icons/cloud-solid.png';
 import CircleNodesIcon from './assets/icons/circle-nodes-solid.png';
@@ -31,7 +33,10 @@ function App() {
       <header id="#header">
         <nav>
           <div className="logonav">
-            <a href='#top'><img src={logonav} className="menu-icon" alt="logo" /></a>
+            <a href='#top'><img src={logonav} className="logo-icon" alt="logo" /></a>
+            <div class="menu-icon" id="menu-icon">
+              <a href="#menu-overlay"><img src={menuIcon} className="menu-icon" alt="menu" /></a>
+            </div>
           </div>
           <div className="menu">
             <ul>
@@ -44,6 +49,18 @@ function App() {
               <li><a href="#contact">Contact Us</a></li>
             </ul>
           </div>
+          <div class="menu-overlay" id="menu-overlay">
+              <ul class="overlay">
+                <li><a href="#top">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#clients">Clients</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+              </ul>
+                <div class="close"><a href="#top"><img src={closeIcon} className="close" alt="close menu"/></a></div>
+            </div>
         </nav>
       </header>
 
@@ -319,28 +336,28 @@ function App() {
           <h2>CONTACT US</h2>
         </div>
         <div className="contact-content">
-        <div className="contact-address">
-          <h4>Office Address</h4>
-          <p>440 Terry Ave N, Seattle, WA 98109</p>
-          <h4>Telephone Number</h4>
-          <p>+1 206-266-1000</p>
-          <h4>Working Hours</h4>
-          <p>7:30 - 18:00</p>
-        </div>
-        <div className="form">
-          <form action="">
-              <div class="form-row">
-                  <input required className="short" type="text" name="name" minlength="4" placeholder="Your Name"
-                      data-msg="Please enter at least 4 chars"/>
-                  <input required className="short" type="email" name="email" placeholder="Your Email"
-                      data-msg="Please enter a valid email"/>
-              </div>
-              <input required type="text" name="subject" minlength="4" placeholder="Subject"/>
-              <textarea required name="message" rows="5" maxlength="150" placeholder="Message"
-                  data-msg="Please write something for us"></textarea>
-              <input className="send" type="submit" value="Send Message"/>
-          </form>
-        </div>
+          <div className="contact-address">
+            <h4>Office Address</h4>
+            <p>440 Terry Ave N, Seattle, WA 98109</p>
+            <h4>Telephone Number</h4>
+            <p>+1 206-266-1000</p>
+            <h4>Working Hours</h4>
+            <p>7:30 - 18:00</p>
+          </div>
+          <div className="form">
+            <form action="">
+                <div class="form-row">
+                    <input required className="short" type="text" name="name" minlength="4" placeholder="Your Name"
+                        data-msg="Please enter at least 4 chars"/>
+                    <input required className="short" type="email" name="email" placeholder="Your Email"
+                        data-msg="Please enter a valid email"/>
+                </div>
+                <input required type="text" name="subject" minlength="4" placeholder="Subject"/>
+                <textarea required name="message" rows="5" maxlength="150" placeholder="Message"
+                    data-msg="Please write something for us"></textarea>
+                <input className="send" type="submit" value="Send Message"/>
+            </form>
+          </div>
         </div>
       </section>
 
@@ -354,20 +371,16 @@ function App() {
             <ul>
               <li><a href="#top">Home</a></li>
               <li><a href="#services">Services</a></li>
-              <li><a href="#about">About Us</a></li>
               <li><a href="#pricing">Pricing</a></li>
-              <li><a href="#clients">Clients</a></li>
-              <li><a href="#team">Team</a></li>
               <li><a href="#contact">Contact Us</a></li>
             </ul>
           </div>
           <div className="ft-col-3">
-            <div>
               <h4>CONTACT US</h4>
-              <p>440 Terry Ave N, Seattle</p>
-              <p>+1 206-266-1000</p>
-              <p>7:30 - 18:00</p>
-            </div>
+              <ul>
+                <li>440 Terry Ave N, SEA</li>
+                <li>+1 206-266-1000</li>
+              </ul> 
             <div className="icons">
               <div className="rrss"><a href="https://github.com/Grupo001-Bootcamp-Devops"><img src={GitHubIcon} alt="github icon"/></a>
               </div>
@@ -378,7 +391,7 @@ function App() {
               <h4>SUBSCRIBE TO OUR NEWSLETTER</h4>
               <input required className="subscribe" type="email" name="email" placeholder="Your Email"
               data-msg="Please enter a valid email"/></div>
-              <p>Sign up for our weekly newsletter to get the latest news, updates and amazing offers.</p>
+              <p>Sign up for our weekly newsletter to get the latest news.</p>
           </div>
         </div>
       </footer>

@@ -302,7 +302,6 @@ function App() {
                 <div className="img-cont-info">
                   <h2>Marcelo Piroddi</h2>
                   <p>Dev Team</p>
-                  <p>Ocupación: Carpenter</p>
                   <div className="rrss-links">
                   <div className="rrss"><a href="https://www.linkedin.com/"><img src={LinkedInIcon} className="icons" alt="Linkedin icon"/></a></div>
                     <div className="rrss"><a href="https://twitter.com/?lang=es"><img src={TwitterIcon} className="icons" alt="Twitter icon"/></a></div>

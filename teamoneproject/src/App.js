@@ -115,7 +115,7 @@ function App() {
               <a href="#top">
                 <h4>Sed ut perspiciatis</h4>
               </a>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+              <p>AUTO Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                 pariatur
               </p>
             </div>

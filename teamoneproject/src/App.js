@@ -68,7 +68,8 @@ function App() {
         <img src={bgimg} className="bg-img" alt="background" />
         <div className="main-container">
           <div className="main-title">
-            <h1>We provide solutions for your business.</h1>
+            <h1>We provide DevOps as a Service. 
+            </h1>
             <div className="buttons">
               <button type="button"><a href="#about">Get Started</a></button>
               <button type="button"><a href="#services">Our Services</a></button>
@@ -83,7 +84,7 @@ function App() {
       <section className="services" id="services">
         <div className="services-title">
           <h2>OUR SERVICES</h2>
-          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.
+          <p>We offer DevOps support as an outsourcing service. 
           </p>
         </div>
         <div className="wc-container">
@@ -91,32 +92,33 @@ function App() {
             <div className="wc-1"><img src={GlobeIcon} className="icons" alt="globe icon"/></div>
             <div className="data-paragraph">
               <a href="#top">
-                <h4>Lorem Ipsum</h4>
+                <h4>Basic</h4>
               </a>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
-                cupiditate
-                non
-                provident</p>
+              <p> Small companies, 
+                StartUps, max. up to 25 developers  
+                . Basic Service 8 hours of daily attention.
+                </p>
             </div>
           </div>
           <div className="whitecards">
             <div className="wc-2"><img src={CloudIcon} className="icons" alt="cloud icon"/></div>
             <div className="data-paragraph">
               <a href="#top">
-                <h4>Dolor Sitema</h4>
+                <h4>Medium </h4>
               </a>
-              <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-                tarad limino ata</p>
+              <p>Medium size companies, maximum up to 150 developers  
+                . Basic Service 8 hours of daily attention.
+                </p>
             </div>
           </div>
           <div className="whitecards">
             <div className="wc-3"><img src={CircleNodesIcon} className="icons" alt="nodes icon"/></div>
             <div className="data-paragraph">
               <a href="#top">
-                <h4>Sed ut perspiciatis</h4>
+                <h4>Special </h4>
               </a>
-              <p>AUTO Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur
+              <p>Large companies, maximum up to 500 developers  
+                  Basic Service 8 hours of daily attention.
               </p>
             </div>
           </div>
@@ -126,25 +128,24 @@ function App() {
       <section className="about" id="about">
         <div className="about-title">
           <h2>WHY CHOOSE US?</h2>
-          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.
+          <p>We are a new company with great expertise,  and specialized in a very sensible pproduct in the market.
+          We provide you with effective IT solutions that can easily become the backbone for your business’s success. Our technological solutions, made by expert IT talent, can fuel your business to reach higher levels.
           </p>
         </div>
         <div className="bc-container">
           <div className="bluecards">
-            <h4>Corporis dolorem</h4>
-            <p>Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut
-              voluptatibus. Autem quod nesciunt eos ea aut amet laboriosam ab. Eos quis porro in non nemo ex.</p>
+            <h4>Experienced Team</h4>
+            <p>WITH AN AVERAGE OF MORE THAN 5 YEARS OF EXPERIENCE, OUR DEVOPS ENGINEERS HAVE THE EXPERTISE YOUR PROJECTS NEED.</p>
             <div><a href="#top">Read more</a></div>
           </div>
           <div className="bluecards">
-            <h4>Voluptates dolores</h4>
-            <p>Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur. Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut
-              voluptatibus.</p>
+            <h4>Agile Methodologies</h4>
+            <p>THE ONE PROJECT MANAGERS,  ARE CERTIFIED IN AND UTILIZE AGILE METHODOLOGIES.</p>
             <div><a href="#top">Read more</a></div>
           </div>
           <div className="bluecards">
-            <h4>Eum ut aspernatur</h4>
-            <p>Autem quod nesciunt eos ea aut amet laboriosam ab. Eos quis porro in non nemo ex. Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur. </p>
+            <h4>Top 10 IT Talent</h4>
+            <p>WE THRIVE IN FINDING THE TOP 10 IT TALENT TO FULFILL EVERY PROJECT’S NEEDS. </p>
             <div><a href="#top">Read more</a></div>
           </div>
         </div>
@@ -171,48 +172,57 @@ function App() {
       <section className="pricing" id="pricing">
         <div className="services-title">
           <h2>PRICING</h2>
-          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.
-          </p>
+          <p>Prices are for reference purposes only.
+                      </p>
         </div>
         <div className="wc-container">
           <div className="whitecards">
             <div className="pricing-data">
-              <h4>ECONOMY</h4>
+              <h4>Basic ECONOMY</h4>
               <h3>$9.99</h3>
-              <p>PER MONTH</p>
+              <p>PER HOUR</p>
               <ul>
-                <li>Bandwidth: <span>1GB</span></li>
-                <li>Onlinespace: <span>50MB</span></li>
-                <li>Support: <span>NO</span></li>
-                <li>Domain: <span>1</span></li>
+                <li>Only from M. to F. <span></span></li>
+                <li>Only 8 hours a Day <span></span></li>
+                <li>From 7.00 to 15:00hs <span></span></li>
+                <li>Support: <span>Yes</span></li>
+                <li>WhatsApp/Telegram <span></span></li>
+                <li>Zoom/Met <span></span></li>
               </ul>
               <a href="#top"><button className='pricing-button' type="button">GET IT</button></a>
             </div>
           </div>
           <div className="whitecards">
             <div className="pricing-data">
-              <h4>DELUXE</h4>
-              <h3>$19.99</h3>
-              <p>PER MONTH</p>
+              <h4>Standard </h4>
+              <h3>$15.00</h3>
+              <p>PER HOUR</p>
               <ul>
-              <li>Bandwidth: <span>10GB</span></li>
-                <li>Onlinespace: <span>500MB</span></li>
-                <li>Support: <span>NO</span></li>
-                <li>Domain: <span>10</span></li>
+              <li>Only from M. to F. <span></span></li>
+                <li>Only 12 hours a Day <span></span></li>
+                <li>From 7.00 to 19:00hs <span></span></li>
+                <li>Support: <span>Yes</span></li>
+                <li>WhatsApp/Telegram <span></span></li>
+                <li>Zoom/Met <span></span></li>
+
               </ul>
               <a href="#top"><button className='pricing-button' type="button">GET IT</button></a>
             </div>
           </div>
           <div className="whitecards">
             <div className="pricing-data">
-              <h4>ULTIMATE</h4>
+              <h4>FULL</h4>
               <h3>$29.99</h3>
-              <p>PER MONTH</p>
+              <p>PER HOUR</p>
               <ul>
-                <li>Bandwidth: <span>100GB</span></li>
-                <li>Onlinespace: <span>2GB</span></li>
-                <li>Support: <span>YES</span></li>
-                <li>Domain: <span>UNLIMITED</span></li>
+                <li> 24/7 <span></span></li>
+                <li> 365 days  <span></span></li>
+                <li>Support: <span>Yes</span></li>
+                <li>WhatsApp/Telegram <span></span></li>
+                <li>Zoom/Met <span></span></li>
+
+
+
               </ul>
               <a href="#top"><button className='pricing-button' type="button">GET IT</button></a>              
             </div>
@@ -223,7 +233,7 @@ function App() {
       <section className="team" id="team">
         <div className="team-title">
           <h2>TEAM</h2>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p>The best specialists in the market. </p>
         </div>
         <div className="team-images">
           <div className="img-container">
@@ -316,7 +326,7 @@ function App() {
       <section className="clients" id="clients">
         <div className="clients-title">
           <h2>OUR CLIENTS</h2>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque dere santome nida.
+          <p>Companies that trust in our service.
           </p>
         </div>
         <div className="clients-images">
@@ -333,16 +343,19 @@ function App() {
 
       <section className="contact" id="contact">
         <div className="contact-title">
-          <h2>CONTACT US</h2>
+          <h1>CONTACT US,  
+            AND DISCOVER WHY IS OOUTSOURCING A BETTER OPTION?</h1>
         </div>
         <div className="contact-content">
           <div className="contact-address">
             <h4>Office Address</h4>
-            <p>440 Terry Ave N, Seattle, WA 98109</p>
+            <p>Avenida Colon 440</p>
             <h4>Telephone Number</h4>
-            <p>+1 206-266-1000</p>
-            <h4>Working Hours</h4>
-            <p>7:30 - 18:00</p>
+            <p>+54 351 111-3456</p>
+            <h4>Office Hours</h4>
+            <p>9:00 - 17:00
+               / Monday to Friday
+            </p>
           </div>
           <div className="form">
             <form action="">
@@ -378,8 +391,8 @@ function App() {
           <div className="ft-col-3">
               <h4>CONTACT US</h4>
               <ul>
-                <li>440 Terry Ave N, SEA</li>
-                <li>+1 206-266-1000</li>
+                <li>Avenida Colon 440</li>
+                <li>+54 351 5681199</li>
               </ul> 
             <div className="icons">
               <div className="rrss"><a href="https://github.com/Grupo001-Bootcamp-Devops"><img src={GitHubIcon} alt="github icon"/></a>
@@ -391,7 +404,7 @@ function App() {
               <h4>SUBSCRIBE TO OUR NEWSLETTER</h4>
               <input required className="subscribe" type="email" name="email" placeholder="Your Email"
               data-msg="Please enter a valid email"/></div>
-              <p>Sign up for our weekly newsletter to get the latest news.</p>
+              <p>Sign up for our newsletter to get the latest news.</p>
           </div>
         </div>
       </footer>

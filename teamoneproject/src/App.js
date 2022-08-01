@@ -236,7 +236,7 @@ function App() {
                   <h2>Andres Dominguez</h2>
                   <p>Product Owner</p>
                   <div className="rrss-links">
-                    <div className="rrss"><a target='_blank' rel='noopener noreferrer' href="https://www.linkedin.com/in/dominguez-andres/"><img src={LinkedInIcon} className="icons" alt="Linkedin icon"/></a></div>
+                    <div className="rrss"><a target='_blank' rel='noopener noreferrer' href="https://www.linkedin.com/in/andres-benjamin-dominguez/"><img src={LinkedInIcon} className="icons" alt="Linkedin icon"/></a></div>
                     <div className="rrss"><a target='_blank' rel='noopener noreferrer' href="https://github.com/Batimeunnescafe"><img src={GitHubIcon} className="icons" alt="GitHub icon"/></a></div>
                     <div className="rrss"><a target='_blank' rel='noopener noreferrer' href="mailto:andres.bmth.bt@gmail.com"><img src={MailIcon} className="icons" alt="Mail icon"/></a></div>
                   </div>

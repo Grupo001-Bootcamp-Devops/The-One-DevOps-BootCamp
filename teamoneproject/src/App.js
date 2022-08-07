@@ -17,7 +17,7 @@ import team1 from './assets/team/team-andres.jpg';
 import team2 from './assets/team/team-juan.jpg';
 import team3 from './assets/team/team-martin.jpg';
 import team4 from './assets/team/team-flor.jpg';
-import team5 from './assets/team/team-brian.jpg';
+import team5 from './assets/team/team-fabian.jpg';
 import team6 from './assets/team/team-marce.jpg';
 import bgimg from './assets/mainbackground.jpg';
 import LinkedInIcon from './assets/icons/linkedin-in-brands.png';
@@ -289,11 +289,11 @@ function App() {
             <img src={team5} className="team-img" alt="team member"/>
               <div className="img-cont-hover">
                 <div className="img-cont-info">
-                  <h2>Brian Sosa</h2>
+                  <h2>Fabian Lucha</h2>
                   <p>Dev Team</p>
                   <div className="rrss-links">
-                  <div className="rrss"><a target='_blank' rel='noopener noreferrer' href="https://www.linkedin.com/"><img src={LinkedInIcon} className="icons" alt="Linkedin icon"/></a></div>
-                    <div className="rrss"><a target='_blank' rel='noopener noreferrer' href="https://twitter.com/?lang=es"><img src={GitHubIcon} className="icons" alt="GitHub icon"/></a></div>
+                  <div className="rrss"><a target='_blank' rel='noopener noreferrer' href="https://www.linkedin.com/in/fabian-ezequiel-lucha-1644bb15b/"><img src={LinkedInIcon} className="icons" alt="Linkedin icon"/></a></div>
+                    <div className="rrss"><a target='_blank' rel='noopener noreferrer' href="https://github.com/FabianLucha"><img src={GitHubIcon} className="icons" alt="GitHub icon"/></a></div>
                     <div className="rrss"><a target='_blank' rel='noopener noreferrer' href="mailto:"><img src={MailIcon} className="icons" alt="Mail icon"/></a></div>
                   </div>
                 </div>

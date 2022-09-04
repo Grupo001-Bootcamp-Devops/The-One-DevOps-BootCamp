@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: react-gke-service
-  namespace: test-argo
+  namespace: dev
 spec:
   ports:
     - port: 80

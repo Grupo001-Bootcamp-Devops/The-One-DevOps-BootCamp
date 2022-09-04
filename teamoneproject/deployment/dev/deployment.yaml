@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: react-gke-backend-container
-          image: "gcr.io/gke-training-358914/react-app:v1"
+          image: "registry.gitlab.com/andres.bmth.bt/the-one-devops-bootcamp"
           imagePullPolicy: Always
           resources:
             limits:
